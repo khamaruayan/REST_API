@@ -1,0 +1,13 @@
+//GET http://localhost:6000/subscribers
+
+##
+//GET http://localhost:6000/subscribers/15
+
+##
+POST http://localhost:6000/subscribers
+Content-Type: :application/json
+
+{
+    "name":"Amazing person",
+    "subscribedToChannel":"web Dev simplified"
+}
